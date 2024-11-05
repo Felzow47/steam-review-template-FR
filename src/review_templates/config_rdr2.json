@@ -6,11 +6,11 @@
             "type":"check",
             "options": [
                 "Je ne conseillerai pas ce jeu même à mon pire ennemi",
-                "Les enfants"
-                "Les fans du genre ou de la franchise"
-                "Les casual gamers"
-                "Tout public"
-                "Les hardcore gamers"
+                "Les enfants",
+                "Les fans du genre ou de la franchise",
+                "Les casual gamers",
+                "Tout public",
+                "Les hardcore gamers",
                 "Les PGM sud-coréens"
             ]
         }
@@ -24,7 +24,7 @@
                 "Mauvais",
                 "Ca a son charme",
                 "Bons",
-                "Très bons"
+                "Très bons",
                 "Beaux à en chialer"
             ]
         },
@@ -34,7 +34,6 @@
             "options": [
                 "Je préfère regarder la peinture sécher",
                 "Difficile de s'amuser",
-                "It's just gameplay",
                 "Mehh",
                 "Assez amusant",
                 "Balade de votre vie"
