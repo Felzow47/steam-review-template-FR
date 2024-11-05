@@ -48,7 +48,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Astro
         run: pnpm run build
