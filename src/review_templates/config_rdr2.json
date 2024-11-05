@@ -1,23 +1,9 @@
 {
-    "name": "Red Dead Redemption 2",
+    "name": "Game",
     "categories": [
 
         {
-            "title": "Graphismes",
-            "type": "check",
-            "options": [
-                "Ne le regardez pas trop longtemps",
-                "À vomir par terre",
-                "Très mauvais",
-                "Mauvais",
-                "Ça a son charme",
-                "Bons",
-                "Très bons",
-                "Beaux à en chialer"
-            ]
-        },
-        {
-            "title": "Amusant ?",
+            "title": "# Amusant ?",
             "type": "check",
             "options": [
                 "Je préfère regarder la peinture sécher",
@@ -28,20 +14,7 @@
             ]
         },
         {
-            "title": "Audio",
-            "type": "check",
-            "options": [
-                "Je suis sourd maintenant",
-                "Très mauvais",
-                "Mauvais",
-                "Pas si mal",
-                "Bons",
-                "Très bons",
-                "C'est un pur orgasme auditif"
-            ]
-        },
-        {
-            "title": "Recommandation",
+            "title": "# Recommandation",
             "type": "check",
             "options": [
                 "Je ne conseillerai pas ce jeu même à mon pire ennemi",
@@ -56,20 +29,35 @@
             ]
         },
         {
-            "title": "Configuration PC recommandée ?",
-            "type": "radio",
+            "title": "☼ Audio",
+            "type": "check",
             "options": [
-                "L'ordi de ma grand mère + Mobile",
-                "Patate",
-                "Entrée de gamme",
-                "Milieu de gamme",
-                "Haut de gamme",
-                "Demandez à la NASA s'ils ont un ordinateur de rechange"
+                "Je suis sourd maintenant",
+                "Très mauvais",
+                "Mauvais",
+                "Pas si mal",
+                "Bons",
+                "Très bons",
+                "C'est un pur orgasme auditif"
             ]
         },
         {
-            "title": "Taille du jeu ?",
-            "type": "radio",
+            "title": "☼ Graphismes",
+            "type": "check",
+            "options": [
+                "Ne le regardez pas trop longtemps",
+                "À vomir par terre",
+                "Très mauvais",
+                "Mauvais",
+                "Ça a son charme",
+                "Bons",
+                "Très bons",
+                "Beaux à en chialer"
+            ]
+        },
+        {
+            "title": "☼ Taille du jeu ?",
+            "type": "check",
             "options": [
               "Il tient sur une disquette",
               "Raissonable ",
@@ -79,10 +67,33 @@
               "Il faudra un disque dur entier pour le stocker",
               "Vaut mieux avoir un trou noir pour contenir toutes les données"
             ]
-          },          
+        },          
         {
-            "title": "La prise en main",
-            "type": "radio",
+            "title": "@ La naration ?",
+            "type": "check",
+            "options": [
+                "C'est quoi ça ?",
+                "Texte ou audio flottant",
+                "Suffisante",
+                "Bien",
+                "Excellente",
+                "Remplacerai votre vie"
+            ]
+        },
+        {
+            "title": "@ Niveau de la traduction ?",
+            "type": "check",
+            "options": [
+                "Pas de traduction",
+                "Traduit par une vache espagonle",
+                "Quelques erreurs (Early access)",
+                "Nikel", 
+                "Audio des voix Traduit"
+            ]
+        },
+        {
+            "title": "% La prise en main",
+            "type": "check",
             "options": [
                 "Appuyez simplement sur 'Z'",
                 "Facile",
@@ -94,20 +105,8 @@
             ]
         },
         {
-            "title": "La naration ?",
-            "type": "radio",
-            "options": [
-                "C'est quoi ça ?",
-                "Texte ou audio flottant",
-                "Suffisante",
-                "Bien",
-                "Excellente",
-                "Remplacerai votre vie"
-            ]
-        },
-        {
-            "title": "Durée de vie",
-            "type": "radio",
+            "title": "% Durée de vie",
+            "type": "check",
             "options": [
                 "Moins longtemps qu'une mouche",
                 "Brève",
@@ -118,7 +117,7 @@
             ]
         },
         {
-            "title": "Possiblité d'y rejouer ?",
+            "title": "♥ Possiblité d'y rejouer ?",
             "type": "check",
             "options" :[
                 "C'est une expérience unique",
@@ -129,8 +128,8 @@
             ]
         },
         {
-            "title": "Qualité-contenu/prix",
-            "type": "radio",
+            "title": "€ Qualité-contenu/prix",
+            "type": "check",
             "options": [
                 "brûler ton argent, aurais le même résultat",
                 "Trop cher",
@@ -142,8 +141,30 @@
             ]
         },
         {
-            "title": "Bugs",
-            "type": "radio",
+            "title": "€ Quand acheter ?",
+            "type": "check",
+            "options": [
+                "Non jamais c'est mieux.",
+                "Attendre une promotion.",
+                "Quand tu veut",
+                "Maintenant cherche pas à attendre !"
+            ]
+        },
+        {
+            "title": "€ Configuration PC recommandée ?",
+            "type": "check",
+            "options": [
+                "L'ordi de ma grand mère + Mobile",
+                "Patate",
+                "Entrée de gamme",
+                "Milieu de gamme",
+                "Haut de gamme",
+                "Demandez à la NASA s'ils ont un ordinateur de rechange"
+            ]
+        },
+        {
+            "title": "§ Bugs",
+            "type": "check",
             "options": [
                 "Le jeu est une sorte de gros bug en phase terminal",
                 "Les bugs gène le gameplay",
@@ -154,7 +175,7 @@
             ]
         },
         {
-            "title": "optimisation & update",
+            "title": "§ Optimisation & update",
             "type": "check",
             "options": [
                 "Vraiment mauvaise",
@@ -165,8 +186,8 @@
             ]
         },
         {
-            "title": "Avis général",
-            "type": "radio",
+            "title": "* Avis général",
+            "type": "check",
             "options": [
                 "N'y jouer pas",
                 "À vos risques et périls",
@@ -176,9 +197,11 @@
             ]
         },
         {
-            "title": "Commentaire",
+            "title": "¤ Commentaire",
             "type": "textarea",
-            "options": []
+            "options": [
+                "Écrire un commentaire (non obligatoire)"
+            ]           
         }
     ]
 }
