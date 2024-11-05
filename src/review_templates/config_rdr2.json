@@ -2,16 +2,30 @@
     "name": "Red Dead Redemption 2",
     "categories": [
         {
+            "title": "Recommandation",
+            "type":"check",
+            "options": [
+                "Je ne conseillerai pas ce jeu même à mon pire ennemi",
+                "Les enfants"
+                "Les fans du genre ou de la franchise"
+                "Les casual gamers"
+                "Tout public"
+                "Les hardcore gamers"
+                "Les PGM sud-coréens"
+            ]
+        }
+        {
             "title": "Graphics",
             "type": "radio",
             "options": [
-                "You forget what reality is",
-                "Beautiful",
-                "Good",
-                "Decent",
-                "Bad",
-                "Don‘t look too long at it",
-                "MS-DOS"
+                "Ne le regardez pas trop longtemps",
+                "À vomir par terre",
+                "Très mauvais",
+                "Mauvais",
+                "Ca a son charme",
+                "Bons",
+                "Très bons"
+                "Beaux à en chialer"
             ]
         },
         {
