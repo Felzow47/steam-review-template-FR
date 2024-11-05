@@ -32,12 +32,12 @@
             "title": "Gameplay",
             "type": "radio",
             "options": [
-                "Very good",
-                "Good",
+                "Je préfère regarder la peinture sécher",
+                "Difficile de s'amuser",
                 "It's just gameplay",
                 "Mehh",
-                "Watch paint dry instead",
-                "Just don't"
+                "Assez amusant",
+                "Balade de votre vie"
             ]
         },
         {
