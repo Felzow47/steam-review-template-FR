@@ -1,36 +1,24 @@
 {
     "name": "Red Dead Redemption 2",
     "categories": [
+
         {
-            "title": "Recommandation",
-            "type":"check",
-            "options": [
-                "Je ne conseillerai pas ce jeu même à mon pire ennemi",
-                "Les enfants",
-                "Les fans du genre ou de la franchise",
-                "Les casual gamers",
-                "Tout public",
-                "Les hardcore gamers",
-                "Les PGM sud-coréens"
-            ]
-        },
-        {
-            "title": "Graphics",
-            "type": "radio",
+            "title": "Graphismes",
+            "type": "check",
             "options": [
                 "Ne le regardez pas trop longtemps",
                 "À vomir par terre",
                 "Très mauvais",
                 "Mauvais",
-                "Ca a son charme",
+                "Ça a son charme",
                 "Bons",
                 "Très bons",
                 "Beaux à en chialer"
             ]
         },
         {
-            "title": "Gameplay",
-            "type": "radio",
+            "title": "Amusant ?",
+            "type": "check",
             "options": [
                 "Je préfère regarder la peinture sécher",
                 "Difficile de s'amuser",
@@ -41,136 +29,156 @@
         },
         {
             "title": "Audio",
-            "type": "radio",
-            "options": [
-                "Eargasm",
-                "Very good",
-                "Good",
-                "Not too bad",
-                "Bad",
-                "I'm now deaf"
-            ]
-        },
-        {
-            "title": "Audience",
             "type": "check",
             "options": [
-                "Kids",
-                "Teens",
-                "Adults",
-                "Grandma"
+                "Je suis sourd maintenant",
+                "Très mauvais",
+                "Mauvais",
+                "Pas si mal",
+                "Bons",
+                "Très bons",
+                "C'est un pur orgasme auditif"
             ]
         },
         {
-            "title": "PC Requirements",
-            "type": "radio",
+            "title": "Recommandation",
+            "type": "check",
             "options": [
-                "Check if you can run paint",
-                "Potato",
-                "Decent",
-                "Fast",
-                "Rich boi",
-                "Ask NASA if they have a spare computer"
+                "Je ne conseillerai pas ce jeu même à mon pire ennemi",
+                "Les enfants",
+                "Les fans du genre ou de la franchise",
+                "Tout public",
+                "Les adolescents",
+                "Les adultes",
+                "Les hardcore gamers",
+                "Les PGM sud-coréens",
+                "Les grand-mères"
             ]
         },
         {
-            "title": "Game Size",
+            "title": "Configuration PC recommandée ?",
             "type": "radio",
             "options": [
-              "Floppy Disk",
-              "Old Fashioned",
-              "Workable",
-              "Big",
-              "Will eat 10% of your 1TB hard drive",
-              "You will want an entire hard drive to hold it",
-              "You will need to invest in a black hole to hold all the data"
+                "L'ordi de ma grand mère + Mobile",
+                "Patate",
+                "Entrée de gamme",
+                "Milieu de gamme",
+                "Haut de gamme",
+                "Demandez à la NASA s'ils ont un ordinateur de rechange"
+            ]
+        },
+        {
+            "title": "Taille du jeu ?",
+            "type": "radio",
+            "options": [
+              "Il tient sur une disquette",
+              "Raissonable ",
+              "Modeste",
+              "Imposant",
+              "Il Mangera 10 % de votre disque dur de 1 To",
+              "Il faudra un disque dur entier pour le stocker",
+              "Vaut mieux avoir un trou noir pour contenir toutes les données"
             ]
           },          
         {
-            "title": "Difficulty",
+            "title": "La prise en main",
             "type": "radio",
             "options": [
-                "Just press 'W'",
-                "Easy",
-                "Easy to learn / Hard to master",
-                "Significant brain usage",
+                "Appuyez simplement sur 'Z'",
+                "Facile",
+                "Nécessite quelques heures",
+                "Facile à apprendre, difficile à maîtriser.",
                 "Difficult",
-                "Dark Souls"
+                "Utilisation importante du cerveau",
+                "Nécessite l'implantation d'un nouveau bras"
             ]
         },
         {
-            "title": "Grind",
+            "title": "La naration ?",
             "type": "radio",
             "options": [
-                "Nothing to grind",
-                "Only if u care about leaderboards/ranks",
-                "Isn't necessary to progress",
-                "Average grind level",
-                "Too much grind",
-                "You'll need a second life for grinding"
+                "C'est quoi ça ?",
+                "Texte ou audio flottant",
+                "Suffisante",
+                "Bien",
+                "Excellente",
+                "Remplacerai votre vie"
             ]
         },
         {
-            "title": "Story",
+            "title": "Durée de vie",
             "type": "radio",
             "options": [
-                "No Story",
-                "Some lore",
-                "Average",
-                "Good",
-                "Lovely",
-                "It'll replace your life"
+                "Moins longtemps qu'une mouche",
+                "Brève",
+                "Plusieurs heures",
+                "Plusieurs dizaines d'heures",
+                "Plusieurs centaines d'heures",
+                "Vers l'infini et au-delà"
             ]
         },
         {
-            "title": "Game Time",
-            "type": "radio",
-            "options": [
-                "Long enough for a cup of coffee",
-                "Short",
-                "Average",
-                "Long",
-                "To infinity and beyond"
+            "title": "Possiblité d'y rejouer ?",
+            "type": "check",
+            "options" :[
+                "C'est une expérience unique",
+                "Uniquement pour les succès",
+                "Si vous attendez quelques mois / années",
+                "Certainement",
+                "Infiniment rejouable"
             ]
-        },
+        }
         {
-            "title": "Price",
+            "title": "Qualité-contenu/prix",
             "type": "radio",
             "options": [
-                "It's free!",
-                "Worth the price",
-                "If it's on sale",
-                "If u have some spare money left",
-                "Not recommended",
-                "You could also just burn your money"
+                "brûler ton argent, aurais le même résultat",
+                "Trop cher",
+                "Si tu as un peu de monnaie qui traîne",
+                "Raisonnable",
+                "Prix parfait",
+                "C'est donné a ce prix la",
+                "Gratuit"
             ]
         },
         {
             "title": "Bugs",
             "type": "radio",
             "options": [
-                "Never heard of",
-                "Minor bugs",
-                "Can get annoying",
-                "ARK: Survival Evolved",
-                "The game itself is a big terrarium for bugs"
+                "Le jeu est une sorte de gros bug en phase terminal",
+                "Les bugs gène le gameplay",
+                "Les bugs ne gène pas le gameplay mais sont présent (Early Access)",
+                "Bugs mineurs",
+                "Quelques bugs",
+                "Le jeu est codé à la perfection"
             ]
         },
         {
-            "title": "? / 10",
+            "title": "optimisation & update",
+            "type": "check",
+            "options": [
+                "Vraiment mauvaise",
+                "Mauvaise",
+                "Acceptable",
+                "correcte",
+                "Optimus perfectus"
+            ]
+        },
+        {
+            "title": "Avis général",
             "type": "radio",
             "options": [
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9",
-                "10"
+                "N'y jouer pas",
+                "À vos risques et périls",
+                "À essayer !",
+                "Ne perdez pas plus de temps et jouez-y!",
+                "Un must!"
             ]
+        }
+        {
+            "title": "Commentaire",
+            "type": "textarea",
+            "options": []
         }
     ]
 }
