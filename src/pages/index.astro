@@ -1,6 +1,10 @@
 ---
-import config_json from "../review_templates/config_rdr2.json";
+import config_json from "../review_templates/config_FR.json";
 import PageLayout from "../layouts/PageLayout.astro";
+function handleInput(event: InputEvent) {
+  const target = event.target as HTMLTextAreaElement;
+  console.log(target.value); // Ajoutez votre logique de gestion ici
+}
 ---
 
 <PageLayout title="Steam Review Template">
@@ -18,10 +22,17 @@ import PageLayout from "../layouts/PageLayout.astro";
     </p>
     <p>
       The code is open source &rarr; <a
-        href="https://github.com/VojtaStruhar/steam-review-template"
+        href="https://github.com/Felzow47/steam-review-template-FR"
       >
         check it out on Github</a
       >!
+      <p>
+      <a 
+        href="https://github.com/VojtaStruhar/steam-review-template"
+      >
+        Thanks to VojtaStruhar For the base code ! </a
+      >!
+      </p>
     </p>
     <p>
       The result generates with a line at the bottom that gives me credit.
@@ -29,7 +40,7 @@ import PageLayout from "../layouts/PageLayout.astro";
     </p>
     {
       config_json.categories.map((category, categoryIndex) => (
-        <form class="flex flex-col gap-2 ">
+        <form class="flex flex-col gap-2">
           <fieldset class="rounded-lg my-4 shadow-md border bg-sky-100">
             <legend class="font-mono font-bold text-xl bg-emerald-300 px-4 rounded-lg shadow">
               {category.title}
@@ -38,12 +49,13 @@ import PageLayout from "../layouts/PageLayout.astro";
               const itemId = `${categoryIndex}:${itemIndex}`;
               return (
                 <>
-                  {category.type == "radio" ? (
-                    <input
-                      type="radio"
+                  {category.type == "textarea" ? (
+                    <textarea
+                      type="textarea"
                       id={itemId}
                       name={category.title}
                       value={item}
+                      style="width: 100%; box-sizing: border-box; padding: 10px; font-size: 16px; line-height: 1.5; resize: vertical; min-height: 100px;"
                     />
                   ) : (
                     <input
@@ -87,7 +99,7 @@ import PageLayout from "../layouts/PageLayout.astro";
 
   <script>
     var data = {};
-    import config_json from "../review_templates/config_rdr2.json";
+    import config_json from "../review_templates/config_FR.json";
 
     function showOutput() {
       copyButton?.style.setProperty("display", "block");

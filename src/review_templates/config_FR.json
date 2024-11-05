@@ -199,9 +199,7 @@
         {
             "title": "¤ Commentaire",
             "type": "textarea",
-            "options": [
-                "Écrire un commentaire (non obligatoire)"
-            ]           
+            "options": [""]          
         }
     ]
 }

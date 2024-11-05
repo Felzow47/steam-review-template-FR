@@ -18,6 +18,10 @@
 .env.test.local
 .env.production.local
 .gitconfig
+/.vscode
+/.astro
+.gitignore
+
 
 npm-debug.log*
 yarn-debug.log*
