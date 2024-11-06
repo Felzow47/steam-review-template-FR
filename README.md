@@ -1,4 +1,4 @@
-#### Hosted with ❤ by Github over here: https://vojtastruhar.github.io/steam-review-template/
+#### Hosted with ❤ by Github over here: https://felzow47.github.io/steam-review-template-FR/
 
 # Steam Review Template
 
