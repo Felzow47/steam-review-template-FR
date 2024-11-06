@@ -9,35 +9,44 @@ function handleInput(event: InputEvent) {
 
 <PageLayout title="Steam Review Template">
   <header class="bg-slate-700 text-white py-2 flex flex-col items-center">
-    <h1>{"---{ Review Template }---"}</h1>
-    <p class="mt-0">☑ Awesome</p>
+    <h1>{"---{ Modèle d'Avis Steam }---"}</h1>
+    <p class="mt-0">☑ Incroyable !</p>
   </header>
 
   <div class="max-w-screen-sm mx-auto px-4">
-    <p>
-      This little tool simplifies the creation of copy-pasta Steam reviews (if
-      you are on this website, this <em>is</em> what you are looking for). I
-      find them moderately funny, so I made this website to avoid copy-pasting
-      the copy pasta so much.&nbsp;😆
-    </p>
-    <p>
-      The code is open source &rarr; <a
+    <script>
+      function setLang(lang) {
+        console.log('Langue sélectionnée : ' + lang);
+        const url = lang === 'en' ? 'index.astro' : 'indexFR.astro';
+        window.location.href = url;
+      }
+    </script>
+
+
+    <p><span style="color: #e0f2fe">
+      Ce petit outil simplifie la création de copies de critiques Steam (si
+      vous êtes sur ce site, ceci <em>est</em> ce que vous recherchez). Je
+      les trouve amusantes, donc j'ai fait ce site pour éviter de
+      copier-coller autant soi-même.&nbsp;😆
+    </p></span>
+    <p><span style="color: #e0f2fe">
+      Le code est open source &rarr; <a
         href="https://github.com/Felzow47/steam-review-template-FR"
-      >
-        check it out on Github</a
-      >!
+      ></span><span style = "color: #c59efb">
+        sur Github !</a
+      ></span>
       <p>
       <a 
         href="https://github.com/VojtaStruhar/steam-review-template"
-      >
-        Thanks to VojtaStruhar For the base code ! </a
-      >!
+      ><span style = "color: #c59efb">
+        Merci à VojtaStruhar pour le code de base !</a
+      ></span>
       </p>
     </p>
-    <p>
-      The result generates with a line at the bottom that gives me credit.
-      Leaving it there is optional, but highly appreciated! Thanks!
-    </p>
+    <p><span style="color: #e0f2fe">
+      Le résultat génère avec une ligne en bas qui nous donne du crédit.
+      la laisser est facultative, mais très appréciée ! Merci !
+    </p></span>
     {
       config_json.categories.map((category, categoryIndex) => (
         <form class="flex flex-col gap-2">
@@ -81,7 +90,7 @@ function handleInput(event: InputEvent) {
         id="output-button"
         class="py-4 px-8 text-lg font-bold rounded-lg border-none shadow bg-amber-400 hover:cursor-pointer hover:shadow-lg transition-all"
       >
-        Generate Steam Review!</button
+      Génère ton avis Steam !</button
       >
     </div>
 
@@ -90,7 +99,7 @@ function handleInput(event: InputEvent) {
         id="copy-output"
         class="py-2 px-4 text-lg rounded-lg border-none shadow bg-sky-100 hover:cursor-pointer hover:shadow-lg transition-all"
       >
-        Copy output</button
+        Copier l'avis.</button
       >
     </div>
 
@@ -124,7 +133,7 @@ function handleInput(event: InputEvent) {
 
         output.innerHTML += `\n`;
         output.innerHTML += `---{ Author }---\n`;
-        output.innerHTML += `☑ https://vojtastruhar.github.io/steam-review-template \n`;
+        output.innerHTML += `https://felzow47.github.io/steam-review-template-FR/ \n`;
       }
     }
 
@@ -168,15 +177,30 @@ function handleInput(event: InputEvent) {
     });
   </script>
 
-  <footer class="bg-slate-700 text-white py-2 flex flex-col items-end">
-    <p class="px-8">
-      <a
-        href="https://www.vojtechstruhar.com"
-        target="_blank"
-        class="text-white">Vojtěch Struhár</a
-      >, 2021
+<footer class="bg-slate-700 text-white py-4 flex flex-col items-center">
+  <div class="max-w-screen-md text-center px-4">
+    <p>
+      This website is not affiliated with Valve Corporation or Steam.<br>
+      The Steam name and logo are trademarks of Valve Corporation,<br>
+      and are used here for informational purposes only.<br>
+      This project is an open-source fork of the original work by 
+      <a href="https://www.github.com/VojtaStruhar/steam-review-template" class="text-white">
+        Vojtěch Struhár
+      </a><br>
+      and is not officially endorsed by him.
     </p>
-  </footer>
+    <p class="mt-4">
+      <a href="https://www.vojtechstruhar.com/" target="_blank" class="text-white">
+        Created by Vojtěch Struhár
+      </a> 
+      <a href="https://github.com/Felzow47" target="_blank" class="text-white">
+        / translated by felzaow47
+      </a>, 2021 - 2024
+    </p>
+  </div>
+</footer>
+  </p>
+</footer>
 </PageLayout>
 
 <style>

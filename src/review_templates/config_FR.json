@@ -6,66 +6,66 @@
             "title": "# Amusant ?",
             "type": "check",
             "options": [
-                "Je préfère regarder la peinture sécher",
-                "Difficile de s'amuser",
-                "Mehh",
-                "Assez amusant",
-                "Balade de votre vie"
+                "Je préfère regarder la peinture sécher.",
+                "Difficile de s'amuser.",
+                "Mehh.",
+                "Assez amusant.",
+                "Balade de votre vie."
             ]
         },
         {
-            "title": "# Recommandation",
+            "title": "# Recommandation ?",
             "type": "check",
             "options": [
-                "Je ne conseillerai pas ce jeu même à mon pire ennemi",
-                "Les enfants",
-                "Les fans du genre ou de la franchise",
-                "Tout public",
-                "Les adolescents",
-                "Les adultes",
-                "Les hardcore gamers",
-                "Les PGM sud-coréens",
-                "Les grand-mères"
+                "Je ne conseillerai pas ce jeu même à mon pire ennemi.",
+                "Les enfants.",
+                "Les fans du genre ou de la franchise.",
+                "Tout public.",
+                "Les adolescents.",
+                "Les adultes.",
+                "Les hardcore gamers.",
+                "Les PGM sud-coréens.",
+                "Les grand-mères."
             ]
         },
         {
-            "title": "☼ Audio",
+            "title": "☼ Audio ?",
             "type": "check",
             "options": [
-                "Je suis sourd maintenant",
-                "Très mauvais",
-                "Mauvais",
-                "Pas si mal",
-                "Bons",
-                "Très bons",
-                "C'est un pur orgasme auditif"
+                "Je suis sourd maintenant.",
+                "Très mauvais.",
+                "Mauvais.",
+                "Pas si mal.",
+                "Bons.",
+                "Très bons.",
+                "C'est un pur orgasme auditif."
             ]
         },
         {
-            "title": "☼ Graphismes",
+            "title": "☼ Graphismes ?",
             "type": "check",
             "options": [
-                "Ne le regardez pas trop longtemps",
-                "À vomir par terre",
-                "Très mauvais",
-                "Mauvais",
-                "Ça a son charme",
-                "Bons",
-                "Très bons",
-                "Beaux à en chialer"
+                "Ne le regardez pas trop longtemps.",
+                "À vomir par terre.",
+                "Très mauvais.",
+                "Mauvais.",
+                "Ça a son charme.",
+                "Bons.",
+                "Très bons.",
+                "Beaux à en chialer."
             ]
         },
         {
             "title": "☼ Taille du jeu ?",
             "type": "check",
             "options": [
-              "Il tient sur une disquette",
-              "Raissonable ",
-              "Modeste",
-              "Imposant",
-              "Il Mangera 10 % de votre disque dur de 1 To",
-              "Il faudra un disque dur entier pour le stocker",
-              "Vaut mieux avoir un trou noir pour contenir toutes les données"
+              "Il tient sur une disquette.",
+              "Raissonable.",
+              "Modeste.",
+              "Imposant.",
+              "Il Mangera 10 % de votre disque dur de 1 To.",
+              "Il faudra un disque dur entier pour le stocker.",
+              "Vaut mieux avoir un trou noir pour contenir toutes les données."
             ]
         },          
         {
@@ -73,71 +73,71 @@
             "type": "check",
             "options": [
                 "C'est quoi ça ?",
-                "Texte ou audio flottant",
-                "Suffisante",
-                "Bien",
-                "Excellente",
-                "Remplacerai votre vie"
+                "Texte ou audio flottant.",
+                "Suffisante.",
+                "Bien.",
+                "Excellente.",
+                "Remplacerai votre vie."
             ]
         },
         {
             "title": "@ Niveau de la traduction ?",
             "type": "check",
             "options": [
-                "Pas de traduction",
-                "Traduit par une vache espagonle",
-                "Quelques erreurs (Early access)",
-                "Nikel", 
-                "Audio des voix Traduit"
+                "Pas de traduction.",
+                "Traduit par une vache espagonle.",
+                "Quelques erreurs. (Early access)",
+                "Nikel.", 
+                "Audio des voix Traduit."
             ]
         },
         {
-            "title": "% La prise en main",
+            "title": "% La prise en main ?",
             "type": "check",
             "options": [
                 "Appuyez simplement sur 'Z'",
-                "Facile",
-                "Nécessite quelques heures",
+                "Facile.",
+                "Nécessite quelques heures.",
                 "Facile à apprendre, difficile à maîtriser.",
-                "Difficult",
-                "Utilisation importante du cerveau",
-                "Nécessite l'implantation d'un nouveau bras"
+                "Difficile.",
+                "Utilisation importante du cerveau.",
+                "Nécessite l'implantation d'un nouveau bras."
             ]
         },
         {
-            "title": "% Durée de vie",
+            "title": "% Durée de vie ?",
             "type": "check",
             "options": [
-                "Moins longtemps qu'une mouche",
-                "Brève",
-                "Plusieurs heures",
-                "Plusieurs dizaines d'heures",
-                "Plusieurs centaines d'heures",
-                "Vers l'infini et au-delà"
+                "Moins longtemps qu'une mouche.",
+                "Brève.",
+                "Plusieurs heures.",
+                "Plusieurs dizaines d'heures.",
+                "Plusieurs centaines d'heures.",
+                "Vers l'infini et au-delà."
             ]
         },
         {
             "title": "♥ Possiblité d'y rejouer ?",
             "type": "check",
             "options" :[
-                "C'est une expérience unique",
-                "Uniquement pour les succès",
-                "Si vous attendez quelques mois / années",
-                "Certainement",
-                "Infiniment rejouable"
+                "C'est une expérience unique.",
+                "Uniquement pour les succès.",
+                "Si vous attendez quelques mois / années.",
+                "Certainement.",
+                "Infiniment rejouable."
             ]
         },
         {
-            "title": "€ Qualité-contenu/prix",
+            "title": "€ Qualité-contenu/prix ?",
             "type": "check",
             "options": [
-                "brûler ton argent, aurais le même résultat",
-                "Trop cher",
-                "Si tu as un peu de monnaie qui traîne",
-                "Raisonnable",
-                "Prix parfait",
-                "C'est donné a ce prix la",
-                "Gratuit"
+                "brûler ton argent, aurais le même résultat.",
+                "Trop cher.",
+                "Si tu as un peu de monnaie qui traîne.",
+                "Raisonnable.",
+                "Prix parfait.",
+                "C'est donné a ce prix la.",
+                "Gratuit."
             ]
         },
         {
@@ -146,7 +146,7 @@
             "options": [
                 "Non jamais c'est mieux.",
                 "Attendre une promotion.",
-                "Quand tu veut",
+                "Quand tu veut.",
                 "Maintenant cherche pas à attendre !"
             ]
         },
@@ -154,52 +154,49 @@
             "title": "€ Configuration PC recommandée ?",
             "type": "check",
             "options": [
-                "L'ordi de ma grand mère + Mobile",
-                "Patate",
-                "Entrée de gamme",
-                "Milieu de gamme",
-                "Haut de gamme",
-                "Demandez à la NASA s'ils ont un ordinateur de rechange"
+                "L'ordi de ma grand mère + Mobile.",
+                "Patate.",
+                "Entrée de gamme.",
+                "Milieu de gamme.",
+                "Haut de gamme.",
+                "Demandez à la NASA s'ils ont un ordinateur de rechange."
             ]
         },
         {
-            "title": "§ Bugs",
+            "title": "§ Bugs ?",
             "type": "check",
             "options": [
-                "Le jeu est une sorte de gros bug en phase terminal",
-                "Les bugs gène le gameplay",
-                "Les bugs ne gène pas le gameplay mais sont présent (Early Access)",
-                "Bugs mineurs",
-                "Quelques bugs",
-                "Le jeu est codé à la perfection"
+                "Le jeu est une sorte de gros bug en phase terminal.",
+                "Les bugs gène le gameplay.",
+                "Les bugs ne gène pas le gameplay mais sont présent. (Early Access)",
+                "Bugs mineurs.",
+                "Quelques bugs.",
+                "Le jeu est codé à la perfection."
             ]
         },
         {
-            "title": "§ Optimisation & update",
+            "title": "§ Optimisation & update ?",
             "type": "check",
             "options": [
-                "Vraiment mauvaise",
-                "Mauvaise",
-                "Acceptable",
-                "correcte",
-                "Optimus perfectus"
+                "Vraiment mauvaise.",
+                "Mauvaise.",
+                "Acceptable.",
+                "correcte.",
+                "Optimus perfectus."
             ]
         },
         {
-            "title": "* Avis général",
+            "title": "* Avis général ?",
             "type": "check",
             "options": [
-                "N'y jouer pas",
-                "À vos risques et périls",
+                "N'y jouer pas.",
+                "À vos risques et périls.",
                 "À essayer !",
-                "Ne perdez pas plus de temps et jouez-y!",
-                "Un must!"
+                "Ne perdez pas plus de temps et jouez-y !",
+                "Un must !"
             ]
-        },
-        {
-            "title": "¤ Commentaire (ne fonctionne pas pour le moment)  ",
-            "type": "textarea",
-            "options": [""]          
         }
     ]
 }
+
+
