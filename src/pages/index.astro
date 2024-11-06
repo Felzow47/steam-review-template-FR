@@ -122,11 +122,11 @@ function handleInput(event: InputEvent) {
               category.type === "check" &&
               data[category.title].includes(item)
             ) {
-              output.innerHTML += `☑ ${item}\n`;
+              output.innerHTML += `☑️ ${item}\n`;
             } else if (data[category.title] === item) {
-              output.innerHTML += `☑ ${item}\n`;
+              output.innerHTML += `☑️ ${item}\n`;
             } else {
-              output.innerHTML += `☐ ${item}\n`;
+              output.innerHTML += `🔲 ${item}\n`;
             }
           });
         });
