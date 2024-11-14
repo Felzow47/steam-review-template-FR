@@ -2,7 +2,7 @@
   "name": "steam-review",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://VojtaStruhar.github.io/steam-review-template",
+  "homepage": "https://felzow47.github.io/steam-review-template-FR/",
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.16.9",
@@ -10,6 +10,7 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "clean": "powershell Remove-Item -Recurse -Force dist",
     "build": "astro build",
     "preview": "astro preview",
     "predeploy": "pnpm run build",
@@ -35,5 +36,9 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "description": "# Steam Review Template",
+  "main": "index.astro",
+  "author": "felzow47",
+  "license": "ISC"
 }

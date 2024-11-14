@@ -1,0 +1,177 @@
+{
+    "name": "Red Dead Redemption 2",
+    "categories": [
+        {
+            "title": "Recommandation",
+            "type":"check",
+            "options": [
+                "Je ne conseillerai pas ce jeu même à mon pire ennemi",
+                "Les enfants",
+                "Les fans du genre ou de la franchise",
+                "Les casual gamers",
+                "Tout public",
+                "Les hardcore gamers",
+                "Les PGM sud-coréens"
+            ]
+        },
+        {
+            "title": "Graphics",
+            "type": "check",
+            "options": [
+                "Ne le regardez pas trop longtemps",
+                "À vomir par terre",
+                "Très mauvais",
+                "Mauvais",
+                "Ca a son charme",
+                "Bons",
+                "Très bons",
+                "Beaux à en chialer"
+            ]
+        },
+        {
+            "title": "Gameplay",
+            "type": "check",
+            "options": [
+                "Very good",
+                "Good",
+                "It's just gameplay",
+                "Mehh",
+                "Watch paint dry instead",
+                "Just don't"
+            ]
+        },
+        {
+            "title": "Audio",
+            "type": "check",
+            "options": [
+                "Eargasm",
+                "Very good",
+                "Good",
+                "Not too bad",
+                "Bad",
+                "I'm now deaf"
+            ]
+        },
+        {
+            "title": "Audience",
+            "type": "check",
+            "options": [
+                "Kids",
+                "Teens",
+                "Adults",
+                "Grandma"
+            ]
+        },
+        {
+            "title": "PC Requirements",
+            "type": "check",
+            "options": [
+                "Check if you can run paint",
+                "Potato",
+                "Decent",
+                "Fast",
+                "Rich boi",
+                "Ask NASA if they have a spare computer"
+            ]
+        },
+        {
+            "title": "Game Size",
+            "type": "check",
+            "options": [
+              "Floppy Disk",
+              "Old Fashioned",
+              "Workable",
+              "Big",
+              "Will eat 10% of your 1TB hard drive",
+              "You will want an entire hard drive to hold it",
+              "You will need to invest in a black hole to hold all the data"
+            ]
+          },          
+        {
+            "title": "Difficulty",
+            "type": "check",
+            "options": [
+                "Just press 'W'",
+                "Easy",
+                "Easy to learn / Hard to master",
+                "Significant brain usage",
+                "Difficult",
+                "Dark Souls"
+            ]
+        },
+        {
+            "title": "Grind",
+            "type": "check",
+            "options": [
+                "Nothing to grind",
+                "Only if u care about leaderboards/ranks",
+                "Isn't necessary to progress",
+                "Average grind level",
+                "Too much grind",
+                "You'll need a second life for grinding"
+            ]
+        },
+        {
+            "title": "Story",
+            "type": "check",
+            "options": [
+                "No Story",
+                "Some lore",
+                "Average",
+                "Good",
+                "Lovely",
+                "It'll replace your life"
+            ]
+        },
+        {
+            "title": "Game Time",
+            "type": "check",
+            "options": [
+                "Long enough for a cup of coffee",
+                "Short",
+                "Average",
+                "Long",
+                "To infinity and beyond"
+            ]
+        },
+        {
+            "title": "Price",
+            "type": "check",
+            "options": [
+                "It's free!",
+                "Worth the price",
+                "If it's on sale",
+                "If u have some spare money left",
+                "Not recommended",
+                "You could also just burn your money"
+            ]
+        },
+        {
+            "title": "Bugs",
+            "type": "check",
+            "options": [
+                "Never heard of",
+                "Minor bugs",
+                "Can get annoying",
+                "ARK: Survival Evolved",
+                "The game itself is a big terrarium for bugs"
+            ]
+        },
+        {
+            "title": "? / 10",
+            "type": "check",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+            ]
+        }
+    ]
+}

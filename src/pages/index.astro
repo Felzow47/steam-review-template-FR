@@ -50,9 +50,9 @@ function handleInput(event: InputEvent) {
               const itemId = `${categoryIndex}:${itemIndex}`;
               return (
                 <>
-                  {category.type == "textarea" ? (
-                    <textarea
-                      type="textarea"
+                  {category.type == "radio" ? (
+                    <radio
+                      type="radio"
                       id={itemId}
                       name={category.title}
                       value={item}
