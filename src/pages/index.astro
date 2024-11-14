@@ -1,16 +1,14 @@
 ---
-import config_json from "../review_templates/config_FR.json";
+import config_json from "../review_templates/config_rdr2.json";
 import PageLayout from "../layouts/PageLayout.astro";
-function handleInput(event: InputEvent) {
-  const target = event.target as HTMLTextAreaElement;
-  console.log(target.value); // Ajoutez votre logique de gestion ici
-}
 ---
 
 <PageLayout title="Steam Review Template">
   <header class="bg-slate-700 text-white py-2 flex flex-col items-center">
-    <h1>{"---{ Modèle d'Avis Steam }---"}</h1>
-    <p class="mt-0">☑️ Incroyable !</p>
+    <br />
+    <h1 class="text-3xl font-extrabold">{"---{ Modèle d'Avis Steam }---"}</h1>
+    <br />
+    <p class="mt-0">☑️ Incroyable </p>
   </header>
 
   <div class="max-w-screen-sm mx-auto px-4">
@@ -21,19 +19,20 @@ function handleInput(event: InputEvent) {
       les trouve amusantes, donc j'ai fait ce site pour éviter de
       copier-coller autant soi-même.&nbsp;😆
     </p></span>
+    <br/>
     <p><span style="color: #e0f2fe">
       Le code est open source &rarr; <a
         href="https://github.com/Felzow47/steam-review-template-FR"
       ></span><span style = "color: #c59efb">
         sur Github !</a
-      ></span>
-      <p>
+      ></span> 
+      <p><br/>
       <a 
         href="https://github.com/VojtaStruhar/steam-review-template"
       ><span style = "color: #c59efb">
         Merci à VojtaStruhar pour le code de base !</a
       ></span>
-      </p>
+      </p><br/>
     </p>
     <p><span style="color: #e0f2fe">
       Le résultat génère avec une ligne en bas qui nous donne du crédit.
@@ -51,7 +50,7 @@ function handleInput(event: InputEvent) {
               return (
                 <>
                   {category.type == "radio" ? (
-                    <radio
+                    <input
                       type="radio"
                       id={itemId}
                       name={category.title}
