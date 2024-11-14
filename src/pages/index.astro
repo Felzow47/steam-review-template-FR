@@ -1,5 +1,5 @@
 ---
-import config_json from "../review_templates/config_rdr2.json";
+import config_json from "../review_templates/config_FR.json";
 import PageLayout from "../layouts/PageLayout.astro";
 ---
 
@@ -12,7 +12,7 @@ import PageLayout from "../layouts/PageLayout.astro";
   </header>
 
   <div class="max-w-screen-sm mx-auto px-4">
-
+    <br />
     <p><span style="color: #e0f2fe">
       Ce petit outil simplifie la création de copies de critiques Steam (si
       vous êtes sur ce site, ceci <em>est</em> ce que vous recherchez). Je
@@ -196,12 +196,21 @@ import PageLayout from "../layouts/PageLayout.astro";
 
 <style>
   input[type="radio"],
+  input[type="checkbox"]:first-child {
+  padding-top: 200px;
+}
   input[type="checkbox"] {
     transform: scale(1.47);
+    margin-left: 15px;
+    margin-bottom: 10px;
   }
 
   fieldset,
   legend {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
   }
+
+  input[type="checkbox"]:first-child {
+  margin-top: 20px;
+}
 </style>
