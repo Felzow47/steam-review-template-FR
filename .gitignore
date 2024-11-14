@@ -17,6 +17,7 @@
 .env.production.local
 .vscode
 .gitconfig
+Tempfile.txt*
 
 npm-debug.log*
 yarn-debug.log*
