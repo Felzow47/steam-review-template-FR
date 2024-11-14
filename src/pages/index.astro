@@ -8,7 +8,8 @@ import PageLayout from "../layouts/PageLayout.astro";
     <br />
     <h1 class="text-3xl font-extrabold">{"---{ Modèle d'Avis Steam }---"}</h1>
     <br />
-    <p class="mt-0">☑️ Incroyable </p>
+
+    <p><span onclick="window.location.href='https://www.youtube.com/watch?v=xvFZjo5PgG0'">☑️</span>Incroyable. </p>
   </header>
 
   <div class="max-w-screen-sm mx-auto px-4">
@@ -195,22 +196,25 @@ import PageLayout from "../layouts/PageLayout.astro";
 </PageLayout>
 
 <style>
-  input[type="radio"],
-  input[type="checkbox"]:first-child {
-  padding-top: 200px;
-}
+  input[type="radio"], 
   input[type="checkbox"] {
-    transform: scale(1.47);
     margin-left: 15px;
-    margin-bottom: 10px;
+    transform: scale(1.47);
+  }
+  input[type="checkbox"]:first-of-type {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    
+  }
+  input[type="checkbox"]:not(:first-of-type):not(:last-of-type) {
+    margin-bottom: 8px;
   }
 
+  input[type="checkbox"]:last-of-type {
+    margin-bottom: 15px;
+  }
   fieldset,
   legend {
     border: 2px solid #ccc;
   }
-
-  input[type="checkbox"]:first-child {
-  margin-top: 20px;
-}
 </style>
